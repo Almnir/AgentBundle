@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <parent>
+    <relativePath>../</relativePath>
+    <groupId>my.project.akkaosgi.build</groupId>
+    <artifactId>wrapper-bundle-settings</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <bundle.symbolicName>org.uncommons.maths</bundle.symbolicName>
+    <wrapped.groupId>org.uncommons.maths</wrapped.groupId>
+    <wrapped.artifactId>uncommons-maths</wrapped.artifactId>
+    <wrapped.version>1.2.2a</wrapped.version>
+  </properties>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>my.project.akkaosgi.build.wrapper-bundle-settings</groupId>
+  <artifactId>org.uncommons.maths</artifactId>
+  <version>1.2.2a-001-SNAPSHOT</version>
+
+  <name>${bundle.symbolicName} ${wrapped.version} [osgi]</name>
+
+  <packaging>bundle</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>${wrapped.groupId}</groupId>
+      <artifactId>${wrapped.artifactId}</artifactId>
+      <version>${wrapped.version}</version>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+
+</project>

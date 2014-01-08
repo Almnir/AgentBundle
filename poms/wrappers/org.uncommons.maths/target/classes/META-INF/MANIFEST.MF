@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: org.uncommons.maths.random;uses:="org.uncommons.maths.
+ number,org.uncommons.maths.binary,javax.crypto",org.uncommons.maths.n
+ umber;uses:="org.uncommons.maths",org.uncommons.maths.combinatorics;u
+ ses:="org.uncommons.maths",org.uncommons.maths.statistics,org.uncommo
+ ns.maths.binary,org.uncommons.maths
+Private-Package: !*
+Built-By: alm
+Tool: Bnd-0.0.255
+Bundle-Name: org.uncommons.maths 1.2.2a [osgi]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.7.0_45
+Bundle-Version: 1.2.0.2a
+Bnd-LastModified: 1389182555648
+Bundle-ManifestVersion: 2
+Bundle-Description: Simple OSGi wrapper around third-party jar(s)
+Import-Package: javax.crypto,org.uncommons.maths,org.uncommons.maths.b
+ inary,org.uncommons.maths.combinatorics,org.uncommons.maths.number,or
+ g.uncommons.maths.random,org.uncommons.maths.statistics
+Bundle-SymbolicName: org.uncommons.maths
+Embed-Dependency: *;scope=compile|runtime;type=!pom;inline=true
+
