@@ -19,6 +19,8 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
     <orderEntry type="library" name="Maven: org.apache.servicemix.bundles:org.apache.servicemix.bundles.protobuf-java:2.4.1_1" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster_2.10:2.2.3" level="project" />
+    <orderEntry type="library" name="Maven: net.sandrogrzicic:scalabuff-runtime_2.10:1.2.0" level="project" />
   </component>
 </module>
 
