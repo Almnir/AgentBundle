@@ -7,11 +7,10 @@ Bundle-Name: my.project.akkaosgibundle [my.project]
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.7.0_25
 Bundle-Version: 1.0.0.SNAPSHOT
-Bnd-LastModified: 1389267839819
+Bnd-LastModified: 1389269683974
 Bundle-ManifestVersion: 2
 Bundle-Activator: my.project.internal.AkkaActivator
-Bundle-Description: Generated using Pax-Construct
-Import-Package: akka.actor;version="2.2",akka.event;version="2.2",akka
- .osgi;version="2.2",org.osgi.framework;version="1.5"
+Bundle-Description: OSGi Akka Agent
+Import-Package: akka.actor,akka.event,akka.osgi,org.osgi.framework
 Bundle-SymbolicName: my.project.akkaosgibundle
 

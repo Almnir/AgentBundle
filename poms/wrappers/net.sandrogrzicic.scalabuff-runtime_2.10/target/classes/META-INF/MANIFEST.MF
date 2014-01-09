@@ -10,7 +10,7 @@ Bundle-Name: net.sandrogrzicic.scalabuff-runtime_2.10 1.2.0 [osgi]
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.7.0_25
 Bundle-Version: 1.2.0
-Bnd-LastModified: 1389267839010
+Bnd-LastModified: 1389269683240
 Bundle-ManifestVersion: 2
 Bundle-Description: Simple OSGi wrapper around third-party jar(s)
 Import-Package: com.google.protobuf,net.sandrogrzicic.scalabuff;versio
