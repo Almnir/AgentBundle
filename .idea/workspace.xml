@@ -73,6 +73,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="34" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.6799531" vertical-offset="302" max-vertical-offset="1218">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provision/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,7 +112,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poms/wrappers/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="27" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1386">
+            <state line="51" column="15" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
@@ -145,15 +154,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="69" selection-start="524" selection-end="547" vertical-scroll-proportion="0.23681125" vertical-offset="29" max-vertical-offset="1218">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -174,8 +174,9 @@
         <option value="$PROJECT_DIR$/akkaosgibundle/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/provision/pom.xml" />
         <option value="$PROJECT_DIR$/akkaosgibundle/pom.xml" />
-        <option value="$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml" />
         <option value="$PROJECT_DIR$/poms/wrappers/pom.xml" />
+        <option value="$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/osgi.bnd" />
+        <option value="$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml" />
       </list>
     </option>
   </component>
@@ -845,9 +846,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/osgi.bnd">
+    <entry file="file://$PROJECT_DIR$/poms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state line="39" column="34" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1722">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poms/wrappers/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="15" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="1386">
           <folding />
         </state>
       </provider>
@@ -859,20 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="34" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1722">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poms/wrappers/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="27" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/poms/wrappers/org.uncommons.maths/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861">
@@ -880,9 +874,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/osgi.bnd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="63" selection-start="443" selection-end="443" vertical-scroll-proportion="0.19399539" vertical-offset="0" max-vertical-offset="866">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="69" selection-start="524" selection-end="547" vertical-scroll-proportion="0.23681125" vertical-offset="29" max-vertical-offset="1218">
+        <state line="42" column="34" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.6799531" vertical-offset="302" max-vertical-offset="1218">
           <folding />
         </state>
       </provider>

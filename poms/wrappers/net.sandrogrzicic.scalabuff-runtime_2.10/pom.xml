@@ -43,7 +43,7 @@
                     <instructions>
                         <Bundle-Name>${project.name}</Bundle-Name>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-                        <Export-Package>net.sandrogrzicic.scalabuff</Export-Package>
+                        <Export-Package>net.sandrogrzicic.scalabuff.*;version=1.2.0</Export-Package>
                         <!--<Import-Package>!sun.misc, *</Import-Package>-->
                     </instructions>
                 </configuration>

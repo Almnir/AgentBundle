@@ -7,7 +7,7 @@ Bundle-Name: my.project.akkaosgibundle [my.project]
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.7.0_25
 Bundle-Version: 1.0.0.SNAPSHOT
-Bnd-LastModified: 1389264249104
+Bnd-LastModified: 1389266236962
 Bundle-ManifestVersion: 2
 Bundle-Activator: my.project.internal.AkkaActivator
 Bundle-Description: Generated using Pax-Construct
