@@ -3,14 +3,13 @@ Export-Package: net.sandrogrzicic.scalabuff;uses:="scala.collection,sc
  ala.collection.immutable,scala.collection.mutable,scala.runtime,com.g
  oogle.protobuf,scala,scala.math,scala.reflect,scala.collection.generi
  c"
-Private-Package: !*
 Built-By: alm
 Tool: Bnd-0.0.255
 Bundle-Name: net.sandrogrzicic.scalabuff-runtime_2.10 1.2.0 [osgi]
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.7.0_45
+Build-Jdk: 1.7.0_25
 Bundle-Version: 1.2.0
-Bnd-LastModified: 1389201129408
+Bnd-LastModified: 1389264248590
 Bundle-ManifestVersion: 2
 Bundle-Description: Simple OSGi wrapper around third-party jar(s)
 Import-Package: com.google.protobuf,net.sandrogrzicic.scalabuff,scala;
