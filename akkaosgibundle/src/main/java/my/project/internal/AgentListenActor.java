@@ -11,11 +11,13 @@ public class AgentListenActor extends UntypedActor {
 
     @Override
     public void onReceive(Object o) throws Exception {
-        LoggingAdapter log = Logging.apply(context().system(), this, null);
+        LoggingAdapter log = Logging.getLogger(context().system(), this);
         if (o instanceof String) {
             String message = (String) o;
             log.info("Message received: ");
             log.info(message);
+        } else {
+            unhandled(o);
         }
     }
 }

@@ -64,19 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/poms/wrappers/org.uncommons.maths/pom.xml">
+      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/resources/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861">
+            <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml">
+      <file leaf-file-name="AgentListenActor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AgentListenActor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="34" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.6799531" vertical-offset="302" max-vertical-offset="1218">
+            <state line="13" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AkkaActivator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AkkaActivator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AkkaActivator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="66" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+            <state line="25" column="0" selection-start="889" selection-end="889" vertical-scroll-proportion="0.46073902" vertical-offset="0" max-vertical-offset="866">
               <folding />
             </state>
           </provider>
@@ -168,7 +168,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/akkaosgibundle/osgi.bnd" />
-        <option value="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AkkaActivator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/net.sandrogrzicic.scalabuff-runtime_2.10.iml" />
         <option value="$PROJECT_DIR$/akkaosgibundle/src/main/resources/application.conf" />
@@ -177,6 +176,8 @@
         <option value="$PROJECT_DIR$/poms/wrappers/pom.xml" />
         <option value="$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/osgi.bnd" />
         <option value="$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml" />
+        <option value="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AgentListenActor.java" />
+        <option value="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AkkaActivator.java" />
       </list>
     </option>
   </component>
@@ -377,6 +378,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akkaosgi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AgentBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akkaosgibundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akkaosgi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AgentBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="akkaosgibundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="internal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -546,7 +603,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-5" width="1922" height="1055" extended-state="6" />
+    <frame x="-1" y="-5" width="1922" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -758,11 +815,6 @@
         <state line="4" column="51" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AgentListenActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/akkaosgi.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959" />
@@ -778,21 +830,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="959" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-cluster_2.10/2.2.3/akka-cluster_2.10-2.2.3.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AkkaActivator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
           <folding />
         </state>
       </provider>
@@ -883,7 +923,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/poms/wrappers/net.sandrogrzicic.scalabuff-runtime_2.10/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="34" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.6799531" vertical-offset="302" max-vertical-offset="1218">
+        <state line="40" column="16" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.63071513" vertical-offset="302" max-vertical-offset="1218">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AgentListenActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AkkaActivator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="889" selection-end="889" vertical-scroll-proportion="0.46073902" vertical-offset="0" max-vertical-offset="866">
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
 Simple actor-based plugin agent project.
 
-Agent is an osgi bundle that registers actor system, setting listening actor and awaiting for messages on 2555 port.
+Agent is an osgi bundle that registers actor system, setting listening actor and awaiting for messages on 2552 port.
 String messages just put into console output, others ignored.

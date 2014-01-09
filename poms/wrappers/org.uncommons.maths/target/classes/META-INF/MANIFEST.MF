@@ -11,7 +11,7 @@ Bundle-Name: org.uncommons.maths 1.2.2a [osgi]
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.7.0_25
 Bundle-Version: 1.2.0.2a
-Bnd-LastModified: 1389266235797
+Bnd-LastModified: 1389267838632
 Bundle-ManifestVersion: 2
 Bundle-Description: Simple OSGi wrapper around third-party jar(s)
 Import-Package: javax.crypto,org.uncommons.maths,org.uncommons.maths.b
