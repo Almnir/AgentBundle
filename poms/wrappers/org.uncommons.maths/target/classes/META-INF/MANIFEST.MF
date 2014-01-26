@@ -9,9 +9,9 @@ Built-By: alm
 Tool: Bnd-0.0.255
 Bundle-Name: org.uncommons.maths 1.2.2a [osgi]
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.7.0_25
+Build-Jdk: 1.7.0_51
 Bundle-Version: 1.2.0.2a
-Bnd-LastModified: 1389269682835
+Bnd-LastModified: 1390770809886
 Bundle-ManifestVersion: 2
 Bundle-Description: Simple OSGi wrapper around third-party jar(s)
 Import-Package: javax.crypto,org.uncommons.maths,org.uncommons.maths.b

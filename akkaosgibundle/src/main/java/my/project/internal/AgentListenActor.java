@@ -9,13 +9,14 @@ import akka.event.LoggingAdapter;
  */
 public class AgentListenActor extends UntypedActor {
 
+    public static String listenActorName = "listenActor";
+
     @Override
     public void onReceive(Object o) throws Exception {
         LoggingAdapter log = Logging.getLogger(context().system(), this);
-        if (o instanceof String) {
-            String message = (String) o;
-            log.info("Message received: ");
-            log.info(message);
+        if (o instanceof Message) {
+            String message = ((Message) o).getMessageString();
+            log.info("Message received: " + message);
         } else {
             unhandled(o);
         }

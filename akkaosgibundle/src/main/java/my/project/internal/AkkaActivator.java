@@ -17,13 +17,23 @@ public final class AkkaActivator extends ActorSystemActivator {
 
     @Override
     public void configure(BundleContext bundleContext, ActorSystem actorSystem) {
-//        LoggingAdapter log = Logging.apply(actorSystem, this, null);
         LoggingAdapter log = Logging.getLogger(actorSystem, this);
-        log.info("Registering Actor System...");
+        log.info("Registering Listening Actor as a service...");
+        ActorSystem remoteSystem = ActorSystem.create("remote");
         Props props = Props.create(AgentListenActor.class);
-        actorListenService = actorSystem.actorOf(props, "actorListen");
+        remoteSystem.actorOf(props, AgentListenActor.listenActorName);
+        registerService(bundleContext, remoteSystem);
+        log.info("Actor System registered: " + remoteSystem.name());
+        log.info("Listening Actor as a service registered: " + AgentListenActor.listenActorName);
+/*
+        // listen actor properties
+        Props props = Props.create(AgentListenActor.class);
+        actorListenService = actorSystem.actorOf(props, AgentListenActor.listenActorName);
+        // registering as an osgi service
         registerService(bundleContext, actorSystem);
-        log.info("Actor System registered.");
+        log.info("Actor System registered: " + actorSystem.name());
+        log.info("Listening Actor as a service registered: " + AgentListenActor.listenActorName);
+*/
     }
 }
 
