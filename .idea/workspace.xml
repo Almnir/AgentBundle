@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37bcc34c-60e0-4be1-8844-d9e67b8b26ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AgentListenActor.java" afterPath="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AgentListenActor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AkkaActivator.java" afterPath="$PROJECT_DIR$/akkaosgibundle/src/main/java/my/project/internal/AkkaActivator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akkaosgibundle/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/akkaosgibundle/src/main/resources/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="37bcc34c-60e0-4be1-8844-d9e67b8b26ba" name="Default" comment="" />
     <ignored path="akkaosgi.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
